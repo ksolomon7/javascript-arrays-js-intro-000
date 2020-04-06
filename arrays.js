@@ -9,3 +9,8 @@ function addElementToBeginningOfArray(array,element){
   let newArray= [element,...array];
   return newArray;
 }
+
+function addElementToEndOfArray(array,element){
+  let newArray= [...,array,element];
+  return newArray
+}
